@@ -42,7 +42,7 @@
     </div>
   </section>
 
-  <section id="about" class="about secction-padding">
+  <section id="about" class="about section-padding">
     <div class="container pos-rel">
       <h3 class="section-title">O MNIE</h3>
       <div class="about-wrapper">
@@ -71,7 +71,131 @@
           </div>
         </div>
     </div>
+  </section>
 
+  <section id="offer" class="offer section-padding bg-gray">
+    <div class="container pos-rel">
+      <h3 class="section-title">OFERTA</h3>
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>I.</h3>
+            <p>PRAWO SPADKOWE</p>
+            <ul class="t-left">
+              <li>stwierdzenie nabycia spadku,</li>
+              <li>dział spadku</li>
+              <li>zachowek</li>
+              <li>odpowiedzialność za długi spadkowe.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>II.</h3>
+            <p>PRAWO RODZINNE</p>
+            <ul class="t-left">
+              <li>alimenty (zasądzenie, podwyższenie),</li>
+              <li>uchylenie i wygaśnięcie obowiązku alimentacyjnego,</li>
+              <li>rozwód, separacja, unieważnienie małżeństwa,</li>
+              <li>władza rodzicielska, kontakty z dzieckiem.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>III.</h3>
+            <p>PRAWO PRACY I UBEZPIECZEŃ SPOŁECZNYCH</p>
+            <ul class="t-left">
+              <li>opiniowanie umów,</li>
+              <li>odwołania od wypowiedzenia umowy o pracę,</li>
+              <li>postępowania o przywrócenie do pracy lub odszkodowanie,</li>
+              <li>odwołania od decyzji organów rentowych w zakresie emerytur, rent i zasiłków.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>IV.</h3>
+            <p>PRAWO GOSPODARCZE</p>
+            <ul class="t-left">
+              <li>sporządzanie i opiniowanie umów,</li>
+              <li>sprawy o zapłatę,</li>
+              <li>postępowanie rejestrowe,</li>
+              <li>windykacja,</li>
+              <li>postępowanie egzekucyjne.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>V.</h3>
+            <p>PRAWO ADMINISTRACYJNE</p>
+            <ul class="t-left">
+              <li>sporządzanie odwołań od decyzji administracyjnych,</li>
+              <li>reprezentacja przed organami administracji publicznej, wojewódzkimi sądami administracyjnymi i Naczelnym Sądem Administracyjnym.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>VI.</h3>
+            <p>PRAWO CYWILNE</p>
+            <ul class="t-left">
+              <li>postępowania wieczystoksięgowe,</li>
+              <li>sprawy o eksmisję,</li>
+              <li>stwierdzenie zasiedzenia,</li>
+              <li>zniesienie współwłasności,</li>
+              <li>ustanowienie służebności,</li>
+              <li>odszkodowania komunikacyjne,</li>
+              <li>odszkodowania za błędy medyczne.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>VI.</h3>
+            <p>OBSŁUGA PRAWNA</p>
+            <ul class="t-left">
+              <li>doradztwo prawne w bieżących sprawach związanych z przedmiotem działalności obsługiwanego podmiotu,</li>
+              <li>opracowywanie i opiniowanie dokumentacji związanej z prowadzoną działalnością,</li>
+              <li>reprezentacja obsługiwanego podmiotu przed sądami i organami administracji publicznej.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-12">
+          <div class="offer-item t-center">
+            <h3>VIII.</h3>
+            <p>PORADY ONLINE</p>
+            <ul class="t-left">
+              <li>udzielenie porady prawnej,</li>
+              <li>sporządzanie opinii prawnej,</li>
+              <li>sporządzenie projektu umowy bądź innego pisma,</li>
+              <li>konsultacje w zakresie spraw sądowych oraz prowadzonych przed innymi organami.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    kontakt...
   </section>
 
   <!-- Optional JavaScript -->

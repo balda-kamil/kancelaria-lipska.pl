@@ -26,6 +26,10 @@ nav ul li a{
   transition: .5s;
 }
 
+li{
+  color: #7e7e7e;
+}
+
 nav ul li a:hover{
   color: #002659;
 }
@@ -38,6 +42,7 @@ nav{
   background: #fff;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 .nav-padding{
@@ -145,7 +150,7 @@ p{
   left: -40px;
 }
  
-.secction-padding{
+.section-padding{
   padding: 70px 0;
 }
 
@@ -179,6 +184,23 @@ p{
   position: absolute;
   right: 0;
   top: -150px;
+}
+
+.t-center{
+  text-align: center;
+}
+
+.bg-gray{
+  background: #ebebeb;
+}
+
+.t-left{
+  text-align: left;
+}
+
+.offer-item{
+  max-width: 320px;
+  margin: 0 auto 70px;
 }
 
 @media only screen and (max-width: 991px) {
