@@ -1,0 +1,188 @@
+body{
+  background: #fff;
+}
+
+.blue-color{
+  color: #002659;
+}
+
+.gray-color{
+  color: #7e7e7e;
+}
+
+.white-color{
+  color: #fff;
+}
+
+nav ul li{
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav ul li a{
+  color: #7e7e7e;
+  transition: .5s;
+}
+
+nav ul li a:hover{
+  color: #002659;
+}
+
+nav img {
+  max-width: 250px;
+}
+
+nav{
+  background: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-padding{
+  padding: 20px;
+}
+
+.nav-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Libre Caslon Text', serif;
+  color: #002659;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  color: #7e7e7e;
+}
+
+.hero{
+  padding-top: 120px;
+  background: url("./../img/hero_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 1080px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+.hero-title{
+  font-size: 60px;
+}
+
+.initial-letter{
+  font-size: 130px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.hero-desc{
+  max-width: 70%;
+}
+
+.btn{
+  border: 1px solid#002659;
+  height: 64px;
+  font-size: 20px;
+  line-height: 50px;
+  background: #002659;
+  transition: .5s;
+  color: #fff;
+  width: 280px;
+}
+
+.btn:hover{
+  color: #002659;
+  background: #fff;
+}
+
+.m-0-imp{
+  margin: 0!important;
+}
+
+.section-title{
+  font-size: 40px;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.section-title::before{
+  content: " ";
+  position: absolute;
+  height: 3px;
+  width: 120px;
+  background: #002659;
+  bottom: -20px;
+  left: -40px;
+}
+ 
+.secction-padding{
+  padding: 70px 0;
+}
+
+.db{
+  display: block!important;
+}
+
+.hidden-content{
+  display: none;
+}
+
+.morebtn{
+  color: #002659;
+  cursor: pointer;
+}
+
+.about-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.owner-description{
+  max-width: 50%;
+}
+
+.pos-rel{
+  position: relative;
+}
+
+.owner-photo{
+  position: absolute;
+  right: 0;
+  top: -150px;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-desc{
+    max-width: 100%;
+  }
+}
