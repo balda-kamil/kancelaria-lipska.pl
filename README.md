@@ -1,0 +1,1 @@
+# kancelaria-lipska.pl
