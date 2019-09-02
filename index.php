@@ -18,6 +18,9 @@
 <!-- FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text:700|Raleway:300&display=swap&subset=latin-ext" rel="stylesheet">
 
+<!-- FA -->
+<script src="https://kit.fontawesome.com/01210e5f71.js"></script>
+
 </head>
 <body>
   <nav>
@@ -166,7 +169,7 @@
 
         <div class="col-md-6 col-12">
           <div class="offer-item t-center">
-            <h3>VI.</h3>
+            <h3>VII.</h3>
             <p>OBSŁUGA PRAWNA</p>
             <ul class="t-left">
               <li>doradztwo prawne w bieżących sprawach związanych z przedmiotem działalności obsługiwanego podmiotu,</li>
@@ -195,8 +198,80 @@
   </section>
 
   <section id="contact" class="contact">
-    kontakt...
+    <div class="col-sm-6 p-0 fl">
+      <div id="contact-map" class="contact-map p-0"><div class="test"></div></div>
+      <script>
+      function initMap() {
+          var kancelaria = {
+              lat: 53.968527,
+              lng: 18.532216
+          };
+          var map = new google.maps.Map(document.getElementById('contact-map'), {
+              zoom: 16,
+              center: kancelaria,
+              scrollwheel: false
+          });
+          var marker = new google.maps.Marker({
+              position: kancelaria,
+              map: map,
+              icon: './_media/img/map-marker.png'
+
+          });
+      }
+      </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnyU9kKeaauC7JckoMc_NUp1awongtQKw&callback=initMap"></script>
+      </div>  
+    <div class="col-sm-6 office-bg office-contact">
+      <p><i class="fas fa-map-marked-alt blue-color"></i>
+        <a href="https://www.google.pl/maps/place/Kancelaria+Radcy+Prawnego+Magdalena+Lipska/@53.9685352,18.5318114,19z/data=!4m5!3m4!1s0x47029df65212cc71:0x973610dcae122994!8m2!3d53.9685173!4d18.5322573" target="_blank">
+          <span class="white-color pl-20 fs-24">ul. Browarowa 7/1, 83-200 Starogard Gdański</span>
+        </a>
+      </p>
+
+      <p><i class="fas fa-phone-alt blue-color"></i>
+        <a href="tel:+48576033088">
+          <span class="white-color pl-20 fs-24">+ 48 576 033 088</span>
+        </a>
+      </p>
+
+      <p><i class="far fa-clock blue-color"></i><span class="white-color pl-20 fs-24">PON - PT. 8.00 - 16.00</span></p>
+      <p><i class="fas fa-envelope-open-text blue-color"></i>
+        <a href="mailto:mlipska@kancelaria-lipska.pl">
+          <span class="white-color pl-20 fs-24">mlipska@kancelaria-lipska.pl</span>
+        </a>
+      </p>
+    </div>  
+
+    <div class="bg-dark-gray pos-rel">
+      <div class="container bg-white">
+        <div class="contact-form-section">
+          <h3 class="section-title-sm t-center">WYŚLIJ<br/> NAM WIDOMOŚĆ</h3>
+          <form action="./form-submit.php" id="contact-form" class="contact-form">
+            <div class="col-md-6 pr-0i" style="float: left;">
+              <input type="text" id="name" name="name" placeholder="IMIE">
+            </div>
+            <div class="col-md-6 pr-0i" style="float: left;">
+              <input type="text" id="email" name="email" placeholder="E-MAIL">
+            </div>
+            <div style="clear: both"></div>
+            <div class="col-md-6 pr-0i" style="float: left;">
+              <input type="text" id="surname" name="surname" placeholder="NAZWISKO">
+            </div>
+            <div class="col-md-6 pr-0i" style="float: left;">
+              <input type="text" id="tel" name="tel" placeholder="TELEFON">
+            </div>
+            <div style="clear: both"></div>
+            <div class="col-md-12">
+              <textarea name="message" form="contact-form" id="message-area" name="message" rows="7" class="" placeholder="TWOJA WIADOMOŚĆ"></textarea>
+            </div>
+            <input id="submit-btn" class="submit-btn" type="submit" value="WYŚLIJ">
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

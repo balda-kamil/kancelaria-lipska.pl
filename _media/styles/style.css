@@ -140,6 +140,12 @@ p{
   position: relative;
 }
 
+.section-title-sm{
+  font-size: 34px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
 .section-title::before{
   content: " ";
   position: absolute;
@@ -194,6 +200,14 @@ p{
   background: #ebebeb;
 }
 
+.bg-white{
+  background: #fff;
+}
+
+.bg-dark-gray{
+  background: #222222;
+}
+
 .t-left{
   text-align: left;
 }
@@ -201,6 +215,87 @@ p{
 .offer-item{
   max-width: 320px;
   margin: 0 auto 70px;
+}
+
+.office-bg{
+  background: url('./../img/lokal.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.office-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 70px;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.office-contact i {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.p-0{
+  padding: 0!important;
+}
+
+.fl{
+  float: left;
+}
+
+.contact-map{
+  min-height: 500px;
+}
+
+.pl-20{
+  padding-left: 20px;
+}
+
+.contact-form-section{
+  padding: 70px;
+  top: -100px;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form textarea{
+  width: calc(100% + 15px)}
+
+textarea{
+  background: #ebebeb;
+  border: none;
+  padding: 20px;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: #ebebeb;
+  border: none;
+}
+
+.ml-10{
+ margin-left: 10px;
+}
+
+.pr-0i{
+  padding-right: 0!important;
+}
+
+.clear-both{
+  clear: both;
+}
+
+.submit-btn{
+  margin: 10px 0 0 15px;
+  width: calc(100% - 15px)
 }
 
 @media only screen and (max-width: 991px) {
