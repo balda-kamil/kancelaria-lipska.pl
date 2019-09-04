@@ -245,7 +245,7 @@
           });
       }
       </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnyU9kKeaauC7JckoMc_NUp1awongtQKw&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key={tutaj API KEY ZIOMEK WSTAW :PP }&callback=initMap"></script>
       </div>  
     <div class="col-lg-6 col-md-12 office-bg office-contact">
       <p><i class="fas fa-map-marked-alt white-color"></i>
