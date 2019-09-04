@@ -1,5 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background: #fff;
+}
+
+.anchor{
+  position: absolute;
+  z-index: -1;
+  top: -174px;
+  display: block;
 }
 
 .blue-color{
@@ -213,6 +224,7 @@ p{
   position: absolute;
   right: 0;
   top: -150px;
+  z-index: 999;
 }
 
 .t-center{

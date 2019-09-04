@@ -67,11 +67,12 @@
       <p class="white-color fs-24">KANCELARIA</p>
       <h1 class="white-color hero-title"><span class="initial-letter">M</span>AGDALENA <span class="initial-letter">L</span>IPSKA</h1>
       <p class="white-color fs-24 hero-desc">Kancelaria Radcy Prawnego Magdalena Lipska oferuje kompleksową obsługę prawną zarówno klientów indywidualnych, jak i podmiotów gospodarczych.</p>
-      <a href="#oferta" class="btn">WIĘCEJ</a>
+      <a href="#offer" class="btn">WIĘCEJ</a>
     </div>
   </section>
 
-  <section id="about" class="about section-padding">
+  <section id="" class="about section-padding pos-rel">
+    <a id="about" class="anchor"></a>
     <div class="container pos-rel">
       <h3 class="section-title">O MNIE</h3>
       <div class="about-wrapper">
@@ -102,7 +103,8 @@
     </div>
   </section>
 
-  <section id="offer" class="offer section-padding bg-gray">
+  <section id="" class="offer section-padding bg-gray pos-rel">
+  <a id="offer" class="anchor"></a>
     <div class="container pos-rel">
       <h3 class="section-title">OFERTA</h3>
       <div class="row">
@@ -223,7 +225,8 @@
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <section id="" class="contact pos-rel">
+  <a id="contact" class="anchor"></a>
     <div class="col-lg-6 col-md-12 p-0 fl">
       <div id="contact-map" class="contact-map p-0"><div class="test"></div></div>
       <script>

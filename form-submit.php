@@ -23,7 +23,7 @@
                     <th style="width: 130px"><strong>Imie i nazwisko</strong></th><th style="width: 130px"><strong>e-mail</strong></th><th style="width: 130px"><strong>telefon</strong></th>
                   </tr>
                   <tr>
-                    <td>' . $name . " " . $surname . '</td><td> ' .$sender_email. ' </td><td> ' . $tel . ' </td>
+                    <td>' . $name . " " . $surname . '</td><td> ' . $sender_email . ' </td><td> ' . $tel . ' </td>
                   </tr>
                 </table>
 
@@ -42,11 +42,11 @@
 
   
 
-  $to = 'baldakamil@gmail.com';
-  $from = "baldakamil@gmail.com";
+  $to = 'mlipska@kancelaria-lipska.pl';
+  $from = "admin@kancelaria-lipska.pl";
   $subject = 'Wiadomość od: ' . $name . ' ' . $surname . ' z formularza na stronie kancelaria-lipska.pl';
 
-  $headers = "Content-type: text/html; charset=iso-8859-1" . "\r\n" .
+  $headers = "Content-type: text/html; charset=utf-8" . "\r\n" .
              "From: " . $from . "\r\n" .
              "Reply-To: " . $sender_email;
 
