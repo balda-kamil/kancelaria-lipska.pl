@@ -257,6 +257,7 @@ p{
 .contact-form-section{
   padding: 70px;
   top: -100px;
+  margin: 0 auto;
 }
 
 .contact-form{
@@ -296,6 +297,15 @@ input{
 .submit-btn{
   margin: 10px 0 0 15px;
   width: calc(100% - 15px)
+}
+
+.form-box{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.error{
+  color: red;
 }
 
 @media only screen and (max-width: 991px) {

@@ -243,7 +243,7 @@
     </div>  
 
     <div class="bg-dark-gray pos-rel">
-      <div class="container bg-white">
+      <div class="form-box bg-white">
         <div class="contact-form-section">
           <h3 class="section-title-sm t-center">WYŚLIJ<br/> NAM WIDOMOŚĆ</h3>
           <form action="./form-submit.php" id="contact-form" class="contact-form">
@@ -264,10 +264,16 @@
             <div class="col-md-12">
               <textarea name="message" form="contact-form" id="message-area" name="message" rows="7" class="" placeholder="TWOJA WIADOMOŚĆ"></textarea>
             </div>
-            <input id="submit-btn" class="submit-btn" type="submit" value="WYŚLIJ">
+            <input id="submit-btn" class="submit-btn btn" type="submit" value="WYŚLIJ">
           </form>
         </div>
       </div>
+      <p class="white-color">
+        ML - radca prawnyl<br/>
+        kldfmlksd<br/>
+        kldfmlksdjjkfs<br/>
+        jsdnfkjsd<br/>
+      </p>
     </div>
   </section>
 
@@ -279,5 +285,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="./_media/scripts/toggle_desc.js"></script>
+  <script src="./_media/scripts/jquery.validate.min.js" crossorigin="anonymous"></script>
+  <script src="./_media/scripts/form-validation.js"></script>
 </body>
 </html>
