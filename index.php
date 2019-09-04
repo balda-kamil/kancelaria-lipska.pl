@@ -24,7 +24,7 @@
 </head>
 <body>
   <nav>
-    <div class="container nav-padding nav-container">
+    <div class="container nav-padding nav-container big-menu">
       <a href="#hero">
         <img src="./_media/img/logo.png" alt="logo Kancelaria Lipska">
       </a>
@@ -34,7 +34,33 @@
         <li><a href="#contact">KONTAKT</a></li>
       </ul>
     </div>
-  </nav>
+
+    <div class="small-menu">
+      <div id="menuToggle">
+
+        <a href="#hero">
+          <img src="./_media/img/logo.png" alt="logo Kancelaria Lipska">
+        </a>
+        <div class="menu-span-btn">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> 
+        <ul id="sm-menu" class="d-none">
+          <div class="sm-menu-box">
+            <a href="#hero">
+                <img src="./_media/img/logo.png" alt="logo Kancelaria Lipska">
+            </a>
+            <li><a href="#about">O MNIE</li>
+            <li><a href="#offer">ZAKRES USŁUG</a></li>
+            <li><a href="#contact">KONTAKT</a></li>
+            </div>  
+          </ul>      
+      </div>
+    </div>
+
+</nav>
 
   <section id="hero" class="hero">
     <div class="container hero-content">
@@ -70,7 +96,7 @@
             </p>
           </div>
           <div class="owner-photo">
-            <img src="./_media/img/owner_photo.jpg" alt="Madgalena Lipska">
+            <img src="./_media/img/owner_photo.jpg" alt="Madgalena Lipska" class="photo-owner">
           </div>
         </div>
     </div>
@@ -198,7 +224,7 @@
   </section>
 
   <section id="contact" class="contact">
-    <div class="col-sm-6 p-0 fl">
+    <div class="col-lg-6 col-md-12 p-0 fl">
       <div id="contact-map" class="contact-map p-0"><div class="test"></div></div>
       <script>
       function initMap() {
@@ -221,21 +247,21 @@
       </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnyU9kKeaauC7JckoMc_NUp1awongtQKw&callback=initMap"></script>
       </div>  
-    <div class="col-sm-6 office-bg office-contact">
-      <p><i class="fas fa-map-marked-alt blue-color"></i>
+    <div class="col-lg-6 col-md-12 office-bg office-contact">
+      <p><i class="fas fa-map-marked-alt white-color"></i>
         <a href="https://www.google.pl/maps/place/Kancelaria+Radcy+Prawnego+Magdalena+Lipska/@53.9685352,18.5318114,19z/data=!4m5!3m4!1s0x47029df65212cc71:0x973610dcae122994!8m2!3d53.9685173!4d18.5322573" target="_blank">
-          <span class="white-color pl-20 fs-24">ul. Browarowa 7/1, 83-200 Starogard Gdański</span>
+          <span class="white-color pl-20 fs-24">ul. Browarowa 7/1, 83-200&nbsp;Starogard Gdański</span>
         </a>
       </p>
 
-      <p><i class="fas fa-phone-alt blue-color"></i>
+      <p><i class="fas fa-phone-alt white-color"></i>
         <a href="tel:+48576033088">
-          <span class="white-color pl-20 fs-24">+ 48 576 033 088</span>
+          <span class="white-color pl-20 fs-24">+&nbsp;48&nbsp;576&nbsp;033&nbsp;088</span>
         </a>
       </p>
 
-      <p><i class="far fa-clock blue-color"></i><span class="white-color pl-20 fs-24">PON - PT. 8.00 - 16.00</span></p>
-      <p><i class="fas fa-envelope-open-text blue-color"></i>
+      <p><i class="far fa-clock white-color"></i><span class="white-color pl-20 fs-24">PON - PT. 8.00&nbsp;-&nbsp;16.00</span></p>
+      <p><i class="fas fa-envelope-open-text white-color"></i>
         <a href="mailto:mlipska@kancelaria-lipska.pl">
           <span class="white-color pl-20 fs-24">mlipska@kancelaria-lipska.pl</span>
         </a>
@@ -248,33 +274,42 @@
           <h3 class="section-title-sm t-center">WYŚLIJ<br/> NAM WIDOMOŚĆ</h3>
           <form action="./form-submit.php" id="contact-form" class="contact-form">
             <div class="col-md-6 pr-0i" style="float: left;">
-              <input type="text" id="name" name="name" placeholder="IMIE">
+              <input type="text" id="name" name="name" placeholder="IMIE*">
             </div>
             <div class="col-md-6 pr-0i" style="float: left;">
-              <input type="text" id="email" name="email" placeholder="E-MAIL">
+              <input type="text" id="email" name="email" placeholder="E-MAIL*">
             </div>
             <div style="clear: both"></div>
             <div class="col-md-6 pr-0i" style="float: left;">
-              <input type="text" id="surname" name="surname" placeholder="NAZWISKO">
+              <input type="text" id="surname" name="surname" placeholder="NAZWISKO*">
             </div>
             <div class="col-md-6 pr-0i" style="float: left;">
               <input type="text" id="tel" name="tel" placeholder="TELEFON">
             </div>
             <div style="clear: both"></div>
             <div class="col-md-12">
-              <textarea name="message" form="contact-form" id="message-area" name="message" rows="7" class="" placeholder="TWOJA WIADOMOŚĆ"></textarea>
+              <textarea name="message" form="contact-form" id="message-area" name="message" rows="7" class="" placeholder="TWOJA WIADOMOŚĆ*"></textarea>
             </div>
             <input id="submit-btn" class="submit-btn btn" type="submit" value="WYŚLIJ">
           </form>
         </div>
       </div>
-      <p class="white-color">
-        ML - radca prawnyl<br/>
-        kldfmlksd<br/>
-        kldfmlksdjjkfs<br/>
-        jsdnfkjsd<br/>
-      </p>
+      <div class="container section-padding footer">
+        <div>
+          <a href="#hero">
+            <img src="./_media/img/logo-footer.png" alt="logo Kancelaria Lipska">
+          </a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/Kancelaria-Radcy-Prawnego-Magdalena-Lipska-483498618888879/" target="_blank"><i class="fab fa-facebook-square white-color fot-ico"></i></a>
+          <a href="https://www.linkedin.com/in/magdalena-lipska-a79655b8/" target="_blank"><i class="fab fa-linkedin white-color fot-ico"></i></a>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <section class="bg-black p-10">
+    <p class="m-0-imp white-color">Projekt i wykonanie <a href="https://kamilbalda.com" target="_blank" class="my-sign">kamilbalda.com</a></p>
   </section>
 
 
@@ -287,5 +322,6 @@
   <script src="./_media/scripts/toggle_desc.js"></script>
   <script src="./_media/scripts/jquery.validate.min.js" crossorigin="anonymous"></script>
   <script src="./_media/scripts/form-validation.js"></script>
+  <script src="./_media/scripts/hamburger-menu.js"></script>
 </body>
 </html>
